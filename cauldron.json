@@ -1,6 +1,6 @@
 {
 	"nativeApps": [{
-		"name": "MyWeatherApp",
+		"name": "ListMiniApp",
 		"platforms": [{
 			"name": "android",
 			"config": {
