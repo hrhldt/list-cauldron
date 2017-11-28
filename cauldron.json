@@ -8,7 +8,7 @@
 					"containerVersion": "1.2.3",
 					"publishers": [{
 							"name": "github",
-							"url": "git@github.com:user/myweatherapp-android-container.git"
+							"url": "git@github.com:hrhldt/list-cauldron.git"
 						},
 						{
 							"name": "maven",
