@@ -1,32 +1,41 @@
-{
-	"nativeApps": [{
-		"name": "ListMiniApp",
-		"platforms": [{
-			"name": "ios",
-			"config": {
-				"containerGenerator": {
-					"containerVersion": "1.2.3",
-					"publishers": [{
-							"name": "github",
-							"url": "git@github.com:hrhldt/list-cauldron.git"
-						},
-						{
-							"name": "maven",
-							"url": "http://user.nexus.repo.com:8081/nexus/content/repositories"
-						}
-					]
-				}
-			},
-			"versions": [{
-				"name": "1.0.0",
-				"ernPlatformVersion": "0.5.0",
-				"containerVersion": "1.2.3",
-				"isReleased": false,
-				"yarnlock": "3ed0a5981a22d89d3b30d6e2011b5b581581771c",
-				"nativeDeps": [
-					"react-native@0.42.0"
-				]
-			}]
-		}]
-	}]
-}
+"nativeApps":[
+   {
+      "name":"ListMiniApp",
+      "platforms":[
+         {
+            "name":"android",
+            "config":{
+               "containerGenerator":{
+                  "containerVersion":"1.0.0",
+                  "publishers":[
+                     {
+                        "name":"github",
+                        "url":"git@github.com:user/myweatherapp-android-container.git"
+                     },
+                     {
+                        "name":"maven",
+                        "url":"http://user.nexus.repo.com:8081/nexus/content/repositories"
+                     }
+                  ]
+               }
+            }
+         },
+         {
+            "name":"ios",
+            "config":{
+               "containerGenerator":{
+                  "name":"github",
+                  "targetRepoUrl":"git@github.com:user/myweatherapp-ios-container.git",
+                  "containerVersion":"1.0.0",
+                  "publishers":[
+                     {
+                        "name":"github",
+                        "url":"git@github.com:user/myweatherapp-ios-container.git"
+                     }
+                  ]
+               }
+            }
+         }
+      ]
+   }
+]
