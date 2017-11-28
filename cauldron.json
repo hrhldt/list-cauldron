@@ -1,6 +1,6 @@
 {
 	"nativeApps": [{
-		"name": "ElectrodeContainerTutorial",
+		"name": "ElectrodeNativeTutorial",
 		"platforms": [{
 				"name": "android",
 				"config": {
@@ -31,6 +31,17 @@
 						}]
 					}
 				}
+			},
+			{
+				"versions": [{
+					"name": "1.0.0",
+					"ernPlatformVersion": "0.5.0",
+					"containerVersion": "1.0.0",
+					"isReleased": false,
+					"nativeDeps": [
+						"react-native@0.42.0"
+					]
+				}]
 			}
 		]
 	}]
