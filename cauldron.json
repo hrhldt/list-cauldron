@@ -1,41 +1,37 @@
-"nativeApps":[
-   {
-      "name":"ListMiniApp",
-      "platforms":[
-         {
-            "name":"android",
-            "config":{
-               "containerGenerator":{
-                  "containerVersion":"1.0.0",
-                  "publishers":[
-                     {
-                        "name":"github",
-                        "url":"git@github.com:user/myweatherapp-android-container.git"
-                     },
-                     {
-                        "name":"maven",
-                        "url":"http://user.nexus.repo.com:8081/nexus/content/repositories"
-                     }
-                  ]
-               }
-            }
-         },
-         {
-            "name":"ios",
-            "config":{
-               "containerGenerator":{
-                  "name":"github",
-                  "targetRepoUrl":"git@github.com:user/myweatherapp-ios-container.git",
-                  "containerVersion":"1.0.0",
-                  "publishers":[
-                     {
-                        "name":"github",
-                        "url":"git@github.com:user/myweatherapp-ios-container.git"
-                     }
-                  ]
-               }
-            }
-         }
-      ]
-   }
-]
+{
+	"nativeApps": [{
+		"name": "ListMiniApp",
+		"platforms": [{
+				"name": "android",
+				"config": {
+					"containerGenerator": {
+						"containerVersion": "1.0.0",
+						"publishers": [{
+								"name": "github",
+								"url": "git@github.com:user/myweatherapp-android-container.git"
+							},
+							{
+								"name": "maven",
+								"url": "http://user.nexus.repo.com:8081/nexus/content/repositories"
+							}
+						]
+					}
+				}
+			},
+			{
+				"name": "ios",
+				"config": {
+					"containerGenerator": {
+						"name": "github",
+						"targetRepoUrl": "git@github.com:user/myweatherapp-ios-container.git",
+						"containerVersion": "1.0.0",
+						"publishers": [{
+							"name": "github",
+							"url": "git@github.com:user/myweatherapp-ios-container.git"
+						}]
+					}
+				}
+			}
+		]
+	}]
+}
