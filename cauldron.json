@@ -1,6 +1,6 @@
 {
 	"nativeApps": [{
-		"name": "ListMiniApp",
+		"name": "ElectrodeContainerTutorial",
 		"platforms": [{
 				"name": "android",
 				"config": {
