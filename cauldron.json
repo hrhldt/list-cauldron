@@ -24,7 +24,7 @@
 				"isReleased": false,
 				"yarnlock": "3ed0a5981a22d89d3b30d6e2011b5b581581771c",
 				"nativeDeps": [
-					"react-native@0.42.0",
+					"react-native@0.42.0"
 				]
 			}]
 		}]
