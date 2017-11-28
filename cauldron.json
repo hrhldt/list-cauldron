@@ -8,7 +8,7 @@
 						"containerVersion": "1.0.0",
 						"publishers": [{
 								"name": "github",
-								"url": "git@github.com:user/myweatherapp-android-container.git"
+								"url": "git@github.com:hrhldt/listminiapp-ios-container.git"
 							},
 							{
 								"name": "maven",
@@ -23,11 +23,11 @@
 				"config": {
 					"containerGenerator": {
 						"name": "github",
-						"targetRepoUrl": "git@github.com:user/myweatherapp-ios-container.git",
+						"targetRepoUrl": "git@github.com:hrhldt/listminiapp-ios-container.git",
 						"containerVersion": "1.0.0",
 						"publishers": [{
 							"name": "github",
-							"url": "git@github.com:user/myweatherapp-ios-container.git"
+							"url": "git@github.com:hrhldt/listminiapp-ios-container.git"
 						}]
 					}
 				}
